@@ -12,5 +12,5 @@ except:
 #r = requests.get('http://www.google.com/')
 r = requests.get('http://google.com')
 
-if r.status_code = 200:
+if r.status_code == 200:
     print "yep, it still there"
